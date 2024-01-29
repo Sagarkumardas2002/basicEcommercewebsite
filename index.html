@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhya Grocery Shop </title>
+    <!-- font awesome cdn linkis used -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/res.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts from here -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Aadhya Grocery Shop</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search">
+
+            </label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/cart-img-1.png" alt="refresh your page">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="Price">$2.99/</span>
+                    <span class="Quantity">qty-1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/cart-img-2.png" alt="refresh your page">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="Price">$4.99/</span>
+                    <span class="Quantity">qty-1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="img/cart-img-3.png" alt="refresh your page">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="Price">$3.99/</span>
+                    <span class="Quantity">qty-1</span>
+                </div>
+            </div>
+            <div class="total">Total : $11.49 /-</div>
+            <a href="#" class="btn">Checkout </a>
+        </div>
+
+        <form actoin="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter email Id" class="box">
+            <input type="password" placeholder="Enter password" class="box">
+            <p>Forget password <a href="#">Click here</a></p>
+            <p>Don't have an account <a href="#">Create now</a></p>
+            <input type="Submit" value="login now" class="btn">
+        </form>
+    </header>
+    <!-- header section ends  here -->
+
+
+    <!-- Home section starts here -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3> Fresh and <span>Organic</span> Products for you </h3>
+            <p>Only on Aadhya's Organic Food Enterprise, that sells healthy food
+            </p>
+            <p> Your Trust and Satisfaction is our profit... </p>
+            <a href="#" class="btn">Shop Now </a>
+        </div>
+    </section>
+    <!-- Home section ends here  -->
+
+    <!-- Features section starts here -->
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/feature-img-1.png" alt="">
+                <h3> fresh and Organic</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. deserunt, earum!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="img/feature-img-2.png" alt="">
+                <h3> free delivery</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. deserunt, earum!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="img/feature-img-3.png" alt="">
+                <h3> easy payments</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. deserunt, earum!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- features section ends here -->
+
+
+
+    <!-- Products section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">our<span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/product-1.png" alt="">
+                    <h3>fresh Orange</h3>
+                    <div class="price">$4.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/product-2.png" alt="">
+                    <h3>fresh onion</h3>
+                    <div class="price">$3.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="img/product-3.png" alt="">
+                    <h3>fresh meat</h3>
+                    <div class="price">$3.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="img/product-4.png" alt="">
+                    <h3>fresh cabbage</h3>
+                    <div class="price">$2.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/product-5.png" alt="">
+                    <h3>fresh potato</h3>
+                    <div class="price">$4.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/product-6.png" alt="">
+                    <h3>fresh avocado</h3>
+                    <div class="price">$3.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="img/product-7.png" alt="">
+                    <h3>fresh carrot</h3>
+                    <div class="price">$3.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="img/product-8.png" alt="">
+                    <h3>g reen lemon</h3>
+                    <div class="price">$2.99 /- - 10.99 /-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- products section ends here  -->
+
+    <!-- categories section starts here  -->
+    <section class="categories" id="categories">
+        <div class="box-container">
+            <div class="box">
+                <img src="img/cat-1.png" alt="">
+                <h3> Vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="img/cat-2.png" alt="">
+                <h3> fresh fruits </h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="img/cat-3.png" alt="">
+                <h3> Diary products</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="img/cat-4.png" alt="">
+                <h3>Fresh meat</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- review section starts here -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's<span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/pic-1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur nam dolores itaque
+                        assumenda ipsum quam explicabo laboriosam deserunt blanditiis. </p>
+                    <h3>kapil khurana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/pic-2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur nam dolores itaque
+                        assumenda ipsum quam explicabo laboriosam deserunt blanditiis. </p>
+                    <h3>Lerry </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/pic-3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur nam dolores itaque
+                        assumenda ipsum quam explicabo laboriosam deserunt blanditiis. </p>
+                    <h3>Harry </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/pic-4.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur nam dolores itaque
+                        assumenda ipsum quam explicabo laboriosam deserunt blanditiis. </p>
+                    <h3>Aadhya kapoor </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blogs section starts here  -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our<span>blogs</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/blog-1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calender">1st may,2021</i></a>
+                    </div>
+                    <h3> fresh and organic Vegitables and fruits </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <a href="#" class="btn">read more </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/blog-2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calender">1st may,2021</i></a>
+                    </div>
+                    <h3> fresh and organic Vegitables and fruits </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <a href="#" class="btn">read more </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/blog-3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calender">1st may,2021</i></a>
+                    </div>
+                    <h3> fresh and organic Vegitables and fruits </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <a href="#" class="btn">read more </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Aadhay's Grocery<i class="fas fa-shopping-basket"></i></h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3> contact info</h3>
+                <a href="#" class="links "><i class="fas fa-phone"></i>+123-222-3322</a>
+                <a href="#" class="links "><i class="fas fa-phone"></i>+123-444-3333</a>
+                <a href="#" class="links "> <i class="fas fa-envelope"></i>sagarkumardas1435@gmail.com</a>
+                <a href="#" class="links "> <i class="fas fa-map-marker-alt"></i>Mira Road (East) mumbai,
+                    india-401101</a>
+            </div>
+
+            <div class="box">
+                <h3> quick links</h3>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links "><i class="fas fa-arrow-right"></i>blogs</a>
+
+            </div>
+            <div class="box">
+                <h3> newsletter</h3>
+                <p> subscribe for latest updates</p>
+                <input type="email" placeholder="Enter your email  Id" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="img/payment.png" class="payment-img" alt="">
+            </div>
+        </div>
+        <div class="credit"> created by<span> Mr. Sagar Kumar Das </span> || Copyright &copy; all rights reserved!
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
